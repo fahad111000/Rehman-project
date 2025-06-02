@@ -24,7 +24,7 @@
     <!-- Header -->
     <header class=" h-16   w-full bg-primary flex xl:text-[14px]  items-center">
 
-        <div class="flex max-w-[1440px] w-full mx-auto px-15   justify-between items-center ">
+        <div class="flex max-w-[1440px] w-full mx-auto px-3  sm:px-15   justify-between items-center ">
 
             <!-- Logo -->
             <div>
@@ -67,19 +67,20 @@
     <main class="w-full">
 
         <!-- Main content -->
-        <section >
+        <section>
 
 
             <!-- Wrapper -->
             <div class="max-w-[1440px]  w-full mx-auto px-3 sm:px-15  flex flex-col-reverse md:flex-row">
 
                 <!-- content -->
-                <div class="my-30 py-10 w-full text-center lg:text-left  md:w-1/2 ">
-                    <h1 class=" font-extrabold  text-primary text-[40px] sm:text-[65px]  2xl:text-[90px]">
+                <div class="my-30 py-10  w-full text-center lg:text-left  md:w-1/2 ">
+                    <h1
+                        class=" font-extrabold leading-none    text-primary text-[40px] sm:text-[65px]  2xl:text-[90px]">
                         GRAPHIC<br>DESGINER
                     </h1>
 
-                    <p class="text-[18px] 2xl:text-[24px] text-[#666768] py-3 sm:py-0">I am a Professional
+                    <p class="text-[18px] 2xl:text-[24px] text-[#666768] py-3 sm:py-3">I am a Professional
                         Graphic Designer
                         providing unique,
                         innovative digital designs services to businesses who
@@ -90,7 +91,7 @@
                     <!-- Button -->
                     <div class="buttons mt-3  gap-10 flex  justify-center md:justify-start">
                         <button
-                            class="cursor-pointer text-[14px] 2xl:text-[18px] bg-primary text-white px-3 py-2 2xl:p-3  rounded">Download
+                            class="cursor-pointer text-[14px] 2xl:text-[18px] bg-primary text-white px-3 py-2 2xl:p-3  rounded">My
                             Resume</button>
                         <button
                             class="max-[430px]:hidden text-[14px] 2xl:text[18px] px-3 py-2 2xl:p-3 cursor-pointer border-1 border-primary text-primary rounded">LEARN
@@ -103,8 +104,8 @@
                 <!-- Imgae-->
                 <div class="relative  w-[600px] h-[600px] 2xl:w-[900px]  ">
                     <!-- Background Circle -->
-                    <div
-                        class="absolute top-0 left-15 2xl:left-30 2xl:top-20  w-full h-full  bg-no-repeat bg-contain bg-center" style="background-image: url(./images/background.png);">
+                    <div class="absolute top-0 left-15 2xl:left-30 2xl:top-20  w-full h-full  bg-no-repeat bg-contain bg-center"
+                        style="background-image: url(./images/background.png);">
                     </div>
 
                     <!-- Foreground Image -->
@@ -117,136 +118,148 @@
 
 
         <!-- Services -->
-        <section class="py-12 md:my-16">
+        <section class="my-10 md:py-10 md:my-20  ">
 
-            <!-- Heading -->
-            <h2 class="text-6xl font-semibold text-center text-primary  ">Services</h2>
+            <div class=" w-full max-w-[1440px] mx-auto px-3 sm:px-15">
 
-            <!-- Cards Container -->
-            <div class="flex flex-wrap  md:flex-wrap gap-8 p-5  justify-center mt-16">
+                <!-- Heading -->
+                <h2 class="text-6xl 2xl:text-7xl  font-semibold text-center text-primary  ">Services</h2>
 
-                <!-- Card -->
-                <div class="w-[85%] h-[300px]  md:w-[23%] px-3 shadow shadow-[#0960934d] ">
-                    <img src="./images/pen.png" alt="" class="w-10 py-3">
 
-                    <div class="content">
-                        <h3 class="text-2xl font-bold text-[#096093] py-1">Graphic Design</h3>
-                        <p class="text-[#666] py-2">
-                            A logo is important because it 
-                            helps establish a brand's identity,
-                            build trust, and stand out from
-                            competitors. It's often the first
-                            thing customers see when they
-                            interact with a brand. 
-                        </p>
+                <!-- Cards Container -->
+                <div class="flex flex-wrap   justify-between py-7">
+
+                    <!-- Card -->
+                    <div class="w-[85%]  md:w-[22%] 2xl:w-[24%]  border-primary   px-5 2xl:p-5  my-5 shadow-md rounded-xl">
+                        <img src="./images/pen.png" alt="" class="w-20 h-20 object-contain">
+                        `
+                        <div class="content">
+                            <h3 class="text-2xl font-bold text-[#096093] py-1">Graphic Design</h3>
+                            <p class="text-[#666] py-2  text-[15px] 2xl:text-[18px]">
+                                A logo is important because it 
+                                helps establish a brand's identity,
+                                build trust, and stand out from
+                                competitors. It's often the first
+                                thing customers see when they
+                                interact with a brand. 
+                            </p>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Card -->
-                <div class="w-[85%] h-[300px]  md:w-[23%] px-3 shadow shadow-[#0960934d] ">
-                    <img src="./images/ux-ui.png" alt="" class="w-13 py-3">
+                    <!-- Card -->
+                    <div class="w-[85%]  md:w-[22%] 2xl:w-[24%]   p-5  my-5 shadow-md rounded-xl">
+                        <img src="./images/ux-ui.png" alt="" class="w-20 h-20 object-contain py-3">
 
-                    <div class="content">
-                        <h3 class="text-2xl font-bold text-[#096093] py-1">UI & UX Design</h3>
-                        <p class="text-[#666] py-2">
-                            UI design and UX design are both important parts of digital product development. UI design
-                            focuses
-                            on the visual elements of product, while UX design focuses on the
-                            overall experience of using it.
-                        </p>
+                        <div class="content">
+                            <h3 class="text-2xl font-bold text-[#096093] py-1">UI & UX Design</h3>
+                            <p class="text-[#666] py-2  text-[15px] 2xl:text-[18px]">
+                                UI design and UX design are both important parts of digital product development. UI
+                                design
+                                focuses
+                                on the visual elements of product, while UX design focuses on the
+                                overall experience of using it.
+                            </p>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Card -->
-                <div class="w-[85%] h-[300px]  md:w-[23%]  p-5 shadow shadow-[#0960934d] ">
-                    <img src="./images/post.png" alt="" class="w-12 py-3">
+                    <!-- Card -->
+                    <div class="w-[85%]  md:w-[22%] 2xl:w-[24%]   p-5  my-5 shadow-md rounded-xl">
+                        <img src="./images/post.png" alt="" class="w-20 h-20 object-contain py-3">
 
-                    <div class="content">
-                        <h3 class="text-2xl font-bold text-[#096093] py-1">WEB BANNERS</h3>
-                        <p class="text-[#666] py-2">
-                            Web banner design is the process
-                            of creating visual elements for
-                            websites to promote products or
-                            services, or to convey information. 
-                            Web banners are a type of digital
-                            advertisement.
-                        </p>
+                        <div class="content">
+                            <h3 class="text-2xl font-bold text-[#096093] py-1">WEB BANNERS</h3>
+                            <p class="text-[#666] py-2 text-[15px] 2xl:text-[18px]">
+                                Web banner design is the process
+                                of creating visual elements for
+                                websites to promote products or
+                                services, or to convey information. 
+                                Web banners are a type of digital
+                                advertisement.
+                            </p>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Card -->
-                <div class="w-[85%] h-[300px]  md:w-[22%] px-3 shadow shadow-[#0960934d] ">
-                    <img src="./images/social-media.png" alt="" class="w-12 py-3">
+                    <!-- Card -->
 
-                    <div class="content">
-                        <h3 class="text-[25px] font-bold text-[#096093] py-1">SOCIAL MEDIA POST</h3>
-                        <p class="text-[#666] py-2">
-                            Social media post design is the
-                            process of creating visually
-                            appealing content for social media
-                            platforms. The goal is to grab the
-                            attention of the audience and
-                            convey a message 
-                        </p>
+                    <div class="w-[85%]  md:w-[22%] 2xl:w-[24%]   p-5  my-5 shadow-md rounded-xl">
+                        <img src="./images/social-media.png" alt="" class="w-20 h-20 object-contain py-3">
+
+                        <div class="content">
+                            <h3 class="text-[25px] font-bold text-[#096093] py-1">SOCIAL MEDIA POST</h3>
+                            <p class="text-[#666] py-2 text-[15px] 2xl:text-[18px]">
+                                Social media post design is the
+                                process of creating visually
+                                appealing content for social media
+                                platforms. The goal is to grab the
+                                attention of the audience and
+                                convey a message 
+                            </p>
+                        </div>
                     </div>
-                </div>
 
 
-                <!-- Card -->
-                <div class="w-[85%] h-[300px]  md:w-[23%] px-3 shadow shadow-[#0960934d] ">
-                    <img src="./images/books.png" alt="" class="w-13 py-3">
+                    <!-- Card -->
 
-                    <div class="content">
-                        <h3 class="text-2xl font-bold text-[#096093] py-1">FLYER & BROCHUER</h3>
-                        <p class="text-[#666] py-2">
-                            Flyers and brochures are both 
-                            printed marketing materials that can be used to promote a product, service, or event 
-                        </p>
+                    <div class="w-[85%]  md:w-[22%] 2xl:w-[24%]   p-5  my-5 shadow-md rounded-xl">
+                        <img src="./images/books.png" alt="" class="w-20 h-20 object-contain py-3">
+
+                        <div class="content">
+                            <h3 class="text-2xl font-bold text-[#096093] py-1">FLYER & BROCHUER</h3>
+                            <p class="text-[#666] py-2 text-[15px] 2xl:text-[18px]">
+                                Flyers and brochures are both 
+                                printed marketing materials that can be used to promote a product, service, or event 
+                            </p>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Card -->
-                <div class="w-[85%] h-[300px] md:w-[23%]  px-3 shadow shadow-[#0960934d] ">
-                    <img src="./images/box.png" alt="" class="w-13 py-3">
+                    <!-- Card -->
 
-                    <div class="content">
-                        <h3 class="text-2xl font-bold text-[#096093] py-1">PACKAGING & LABEL</h3>
-                        <p class="text-[#666] py-2">
-                            Packaging is the physical
-                            container for a product, while labeling is the information
-                            displayed on the packaging.
-                        </p>
+                    <div class="w-[85%]  md:w-[22%] 2xl:w-[24%]   p-5  my-5 shadow-md rounded-xl">
+                        <img src="./images/box.png" alt="" class="w-20 h-20 object-contain py-3">
+
+                        <div class="content">
+                            <h3 class="text-2xl font-bold text-[#096093] py-1">PACKAGING & LABEL</h3>
+                            <p class="text-[#666] py-2 text-[15px] 2xl:text-[18px]">
+                                Packaging is the physical
+                                container for a product, while labeling is the information
+                                displayed on the packaging.
+                            </p>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Card -->
-                <div class="w-[85%] h-[300px]  md:w-[23%]  px-3 shadow shadow-[#0960934d] ">
-                    <img src="./images/thum.png" alt="" class="w-14  py-3">
+                    <!-- Card -->
+                    <div class="w-[85%]  md:w-[22%] 2xl:w-[24%]   p-5  my-5 shadow-md rounded-xl">
+                        <img src="./images/thum.png" alt="" class="w-20 h-20 object-contain py-3">
 
-                    <div class="content">
-                        <h3 class="text-2xl font-bold text-[#096093] py-1">THUMBNAIL DESIGN</h3>
-                        <p class="text-[#666] py-2">
-                            Thumbnail design is crucial because it acts as the visual
-                            gateway to your content, significantly impacting whether users click on your video, image,
-                            or article.
-                        </p>
+                        <div class="content">
+                            <h3 class="text-2xl font-bold text-[#096093] py-1">THUMBNAIL DESIGN</h3>
+                            <p class="text-[#666] py-2 text-[15px] 2xl:text-[18px]">
+                                Thumbnail design is crucial because it acts as the visual
+                                gateway to your content, significantly impacting whether users click on your video,
+                                image,
+                                or article.
+                            </p>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Card -->
-                <div class="w-[85%] h-[300px] md:w-[23%]  px-3 shadow shadow-[#0960934d] ">
-                    <img src="./images/menu.png" alt="" class="w-12 py-3">
+                    <!-- Card -->
 
-                    <div class="content">
-                        <h3 class="text-2xl font-bold text-[#096093] py-1">MENU DESIGN</h3>
-                        <p class="text-[#666] py-2">
-                            A well-designed menu is important for a restaurant because it can help with marketing,
-                            customer experience, and profitability. 
-                        </p>
+                    <div class="w-[85%]  md:w-[22%] 2xl:w-[24%]   p-5  my-5 shadow-md rounded-xl">
+                        <img src="./images/menu.png" alt="" class="w-20 h-20 object-contain py-3">
+
+                        <div class="content">
+                            <h3 class="text-2xl font-bold text-[#096093] py-1">MENU DESIGN</h3>
+                            <p class="text-[#666] py-2 text-[15px] 2xl:text-[18px]">
+                                A well-designed menu is important for a restaurant because it can help with marketing,
+                                customer experience, and profitability. 
+                            </p>
+                        </div>
                     </div>
+
                 </div>
 
             </div>
+
 
         </section>
 
